@@ -8,7 +8,7 @@ A collection of my most used [FeedHenry Client & Cloud API](http://docs.feedhenr
 
     git clone git@github.com:alanmoran/sublime-FeedHenry-API-snippets.git
 
-*2.*  Download the [.zip](https://github.com/alanmoran/sublime-FeedHenry-API-snippets/archive/master) file and unzip it into your ST2 packages directory.
+*2.*  Download the [.zip](https://github.com/alanmoran/sublime-FeedHenry-API-snippets/archive/master.zip) file and unzip it into your ST2 packages directory.
 
 ## Where to Find Packages Folder
 * Windows: %APPDATA%\Sublime Text 2/Packages/User/
@@ -19,4 +19,4 @@ A collection of my most used [FeedHenry Client & Cloud API](http://docs.feedhenr
 License: MIT [http://www.opensource.org/licenses/mit-license.php](http://www.opensource.org/licenses/mit-license.php)
 
 ## Author
-Twitter: [ialanmoran](https://twitter.com/ialanmoran) | GitHub: [DEVtellect](https://github.com/alanmoran)
+Twitter: [ialanmoran](https://twitter.com/ialanmoran) | GitHub: [alanmoran](https://github.com/alanmoran)
