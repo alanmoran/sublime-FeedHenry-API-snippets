@@ -15,6 +15,9 @@ OR
 * OS X: ~/Library/Application Support/Sublime Text 2/Packages/User/
 * Linux: ~/.Sublime Text 2/Packages/User/
 
+## Using the Plugin
+Its simple just type fh<nameofapi>. For example fhact for $fh.act
+
 ## License
 License: MIT [http://www.opensource.org/licenses/mit-license.php](http://www.opensource.org/licenses/mit-license.php)
 
