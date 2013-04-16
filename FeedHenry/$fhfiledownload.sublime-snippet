@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+\$fh.file({
+  "act": "download",
+  "src": "${1:file path}",
+  "dest": "${2:file path}",
+  "progressListener": function(){
+    ${3:progress listener function}
+  }
+}, function(res) {
+    ${4:success callback}
+}, function(msg, error) {
+    ${5:error callback}
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>fhfile-download</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>
