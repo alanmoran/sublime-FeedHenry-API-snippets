@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+\$fh.file({
+  "act": "upload",
+  "filepath": "${1:file path}",
+  "server": ${2:"server address"},
+  "filekey": ${3:"optional filekey"},
+  "filename": ${4:"optional filename"},
+  "mime": ${5:"optional mime"},
+  "params": ${6:"optional params"}
+}, function(res) {
+    ${7:success callback}
+}, function(msg, error) {
+    ${8:error callback}
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>fhfile-upload</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>
