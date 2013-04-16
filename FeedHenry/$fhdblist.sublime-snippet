@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+\$fh.db({
+  "act": "list",
+  "type": "${1:myFirstEntity}"
+}, function(err, data) {
+  if (err) {
+    ${2:console.log(JSON.stringify(err));}
+  } else {
+    ${3:console.log(JSON.stringify(data));}
+  }
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>fhdb-list</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>

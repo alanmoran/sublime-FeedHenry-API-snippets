@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+\$fh.cache({
+    act: "save",
+    key: "${1:foo}",
+    value: "${2:bar}"
+}, function(err, res) {
+    if (err) {
+        ${3:console.log(err.toString());}
+    } else {
+        ${3:console.log(res.toString());}
+    }
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>fhcache-save</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>

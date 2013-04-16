@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+\$fh.db({
+  "act": "index",
+  "type": "${1:myFirstEntity}",
+  "index": ${2:{
+    "employeeName": "ASC", // Index type
+    "location": "2D"
+  \}}
+}, function(err, data) {
+  if (err) {
+    ${3:console.log(JSON.stringify(err));}
+  } else {
+    ${4:console.log(JSON.stringify(data));}
+  }
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>fhdb-index</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>

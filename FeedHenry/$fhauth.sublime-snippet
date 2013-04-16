@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+\$fh.auth({
+    "policyId": "${1:My LDAP Auth Policy}",
+    "clientToken": "${2:myAppId}",
+    "endRedirectUrl": ${3:window.location.href},
+    "params": {
+        "userId": "${4:kermit.t.frog@fragglerock.com}",
+        "password": "${5:iluvmisspiggy}"
+    }
+}, function(res) {
+    ${6:response logic}
+}, function(msg, err) {
+    ${7:response logic}
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>fhauth</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>
+
+

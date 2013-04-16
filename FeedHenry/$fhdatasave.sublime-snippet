@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+\$fh.data({
+    act: "save",
+    key: "${1:foo}",
+    val: "${2:bar}"
+}, function() {
+    //save success
+    ${3}
+}, function(msg, err) {
+    //save failed
+    ${4}
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>fhdata-save</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>

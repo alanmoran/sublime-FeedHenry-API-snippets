@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+\$fh.cache({
+    act: "remove",
+    key: "${1:foo}",
+}, function(err, res) {
+    if (err) {
+        ${2:console.log(err.toString());}
+    } else {
+        ${3:console.log(res.toString());}
+    }
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>fhcache-remove</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>

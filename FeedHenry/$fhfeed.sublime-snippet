@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+\$fh.feed({
+  'link': "${1:http://www.feedhenry.com/feed}",
+  'list-max': ${2:10}
+}, function(err, result) {
+  if (err) {
+    ${3: console.log("Error is : " + err.message);}
+  } else {
+    ${4:entries = JSON.parse(result.body).list;
+      for (var i = 0; i < entries.length; i++) {
+        console.log("Entry title : " + entries[i].fields.title + " : Content : " + entries[i].fields.description);
+      }}
+  }
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>fhfeed</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>

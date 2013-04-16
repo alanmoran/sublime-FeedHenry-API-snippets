@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+\$fh.init({
+    "host": "${1:Host to use}",
+    "appid": "${2:Your App ID}",
+    "appkey": "${3:our App API Key}"
+}, function(res) {
+    ${4:response logic}
+}, function(msg, err) {
+    ${5:response logic}
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>fhinit</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>

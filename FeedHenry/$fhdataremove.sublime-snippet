@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+\$fh.data({
+    act: "remove",
+    key: "${1:foo}",
+}, function() {
+    //data removed
+    ${2}
+}, function(msg, err) {
+    //remove failed
+    ${3}
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>fhdata-remove</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>

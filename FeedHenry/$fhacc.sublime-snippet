@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+\$fh.acc({
+    act: '${1:register}',
+    interval: ${2: 5000}
+}, function(res) {
+    ${3: response logic}
+}, function(msg, err) {
+    ${4: error handling}
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>fhacc</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>
