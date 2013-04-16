@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+\$fh.ready({
+    ${1:Args}
+}, function() {
+    ${2:success logic}
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>fhready</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>
